@@ -41,6 +41,10 @@ listConfig = {
                 'url': '/sdapi/v1/sd-vae', 
                 'jsonitem' : '',
                 'jsonname' : 'model_name'},
+    'schedulers': { 
+                'url': '/sdapi/v1/schedulers', 
+                'jsonitem' : '',
+                'jsonname' : 'name'},
 }
 
 availableItems = {
@@ -53,6 +57,7 @@ availableItems = {
     'cn_models' : [],
     'cn_preprocessors' : [],
     'vaes' : [],
+    'schedulers' : [],
 }
 
 config = configparser.ConfigParser()
